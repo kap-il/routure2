@@ -9,7 +9,7 @@ import Social from './pages/Social';
 
 axios.defaults.baseURL = 
   process.env.NODE_ENV === "production"
-    ? "https://routure.com"
+    ? "https://routure.vercel.app"
     : "https://localhost:3000"
   axios.defaults.withCredentials = true;
 
