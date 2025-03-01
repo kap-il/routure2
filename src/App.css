@@ -21,9 +21,10 @@ html, body {
 }
 
 .title{
-  src: local("Argue"), 
-  url("./fonts/Argue.otf") format("opentype");
-  font-family: "Argue";
+  font-family: "Argue Regular";
+  src: local("Argue\ Regular"), 
+  url("./fonts/Argue Regular.otf") format("opentype");
+  
   font-size: clamp(16px, 60vw, 80px);
   color: #fdf9f9e0;
 }

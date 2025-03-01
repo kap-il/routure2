@@ -22,7 +22,7 @@ export default function Open() {
   return (
     <div className="open"> 
         <pre className="title">R  O  U  T  U  R  E</pre>
-        <ul className="subtitle">
+        {/* <ul className="subtitle">
             <li>
                 <Link to="/issues" className='link-item'>
                  I S S U E S
@@ -41,7 +41,18 @@ export default function Open() {
                 </Link>
             </li>
             
-        </ul>
+        </ul> */}
+        <div className='flex flex-col lg:flex-row gap-2'>
+        <Link to="/issues" className='link-item'>
+                 I S S U E S
+            </Link>
+            <Link to="/merch" className='link-item'>
+                M E R C H A N D I S E
+            </Link>
+            <Link to="/social" className='link-item'>
+                S O C I A L S
+                </Link>
+        </div>
     </div>
   );
 }
