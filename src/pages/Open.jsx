@@ -7,7 +7,7 @@ export default function Open() {
 
     useEffect (()=> {
         anime({
-         targets: ['.title', '.subtitle'],
+         targets: ['.title', '.subtitle', link-item],
          opacity: [0,1],
          easing: 'easeInOutExpo',
          duration: 3000,
